@@ -89,9 +89,7 @@
     {
       "type": "aws-ami",
       "name": "awsMachine",
-      "specific": {
-        "ImageId": "ami-25d49c15"
-      },
+      "specific": {},
       "id": "awsMachine"
     },
     {
@@ -206,9 +204,7 @@
         "contains": [
           "web-a6bdf73a$f7423c87efb343b0ca37edd64711328592d45f36"
         ],
-        "specific": {
-          "ImageId": "ami-25d49c15"
-        }
+        "specific": {}
       },
       "web-a6bdf73a$f7423c87efb343b0ca37edd64711328592d45f36": {
         "id": "web-a6bdf73a$f7423c87efb343b0ca37edd64711328592d45f36",

@@ -26,7 +26,6 @@ exports.awsMachine = {
   type: 'aws-ami',
   name: 'awsMachine',
   specific: {
-    ImageId: 'ami-25d49c15'
   }
 };
 
