@@ -25,3 +25,4 @@ options.mine.js
 workspace
 config.js
 *.pem
+*~
