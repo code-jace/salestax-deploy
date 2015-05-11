@@ -10,17 +10,16 @@
     },
     {
       "specific": {
-        "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v1",
+        "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v2",
         "type": "docker",
         "execute": {
           "args": "-p 51000:51000",
           "exec": "node /app.js"
         },
-        "checkoutDir": "salestax-api-v1",
-        "commit": "e22ae2a4dbcdb1bac40403498602f89cf4134a32"
+        "commit": "f7423c87efb343b0ca37edd64711328592d45f36"
       },
       "type": "docker",
-      "id": "web$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
+      "id": "web$f7423c87efb343b0ca37edd64711328592d45f36",
       "name": "web"
     }
   ],
@@ -32,25 +31,24 @@
         "containerDefinitionId": "root",
         "type": "blank-container",
         "contains": [
-          "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32"
+          "web-8216fa83$f7423c87efb343b0ca37edd64711328592d45f36"
         ],
         "specific": {}
       },
-      "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32": {
-        "id": "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
+      "web-8216fa83$f7423c87efb343b0ca37edd64711328592d45f36": {
+        "id": "web-8216fa83$f7423c87efb343b0ca37edd64711328592d45f36",
         "containedBy": "root-6a536cd1",
-        "containerDefinitionId": "web$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
+        "containerDefinitionId": "web$f7423c87efb343b0ca37edd64711328592d45f36",
         "type": "docker",
         "contains": [],
         "specific": {
-          "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v1",
+          "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v2",
           "type": "docker",
           "execute": {
             "args": "-p 51000:51000",
             "exec": "node /app.js"
           },
-          "checkoutDir": "salestax-api-v1",
-          "commit": "e22ae2a4dbcdb1bac40403498602f89cf4134a32"
+          "commit": "f7423c87efb343b0ca37edd64711328592d45f36"
         }
       }
     },
