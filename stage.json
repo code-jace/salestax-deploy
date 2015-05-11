@@ -10,17 +10,17 @@
     },
     {
       "specific": {
-        "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v0",
+        "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v1",
         "type": "docker",
         "execute": {
           "args": "-p 51000:51000",
           "exec": "node /app.js"
         },
-        "checkoutDir": "salestax-api-v0",
-        "commit": "1868f757714502715cbfe9bdcd19b462b34b0dd5"
+        "checkoutDir": "salestax-api-v1",
+        "commit": "e22ae2a4dbcdb1bac40403498602f89cf4134a32"
       },
       "type": "docker",
-      "id": "web$1868f757714502715cbfe9bdcd19b462b34b0dd5",
+      "id": "web$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
       "name": "web"
     }
   ],
@@ -32,25 +32,25 @@
         "containerDefinitionId": "root",
         "type": "blank-container",
         "contains": [
-          "web-8216fa83$1868f757714502715cbfe9bdcd19b462b34b0dd5"
+          "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32"
         ],
         "specific": {}
       },
-      "web-8216fa83$1868f757714502715cbfe9bdcd19b462b34b0dd5": {
-        "id": "web-8216fa83$1868f757714502715cbfe9bdcd19b462b34b0dd5",
+      "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32": {
+        "id": "web-8216fa83$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
         "containedBy": "root-6a536cd1",
-        "containerDefinitionId": "web$1868f757714502715cbfe9bdcd19b462b34b0dd5",
+        "containerDefinitionId": "web$e22ae2a4dbcdb1bac40403498602f89cf4134a32",
         "type": "docker",
         "contains": [],
         "specific": {
-          "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v0",
+          "repositoryUrl": "git@github.com:senecajs/salestax-api.git#v1",
           "type": "docker",
           "execute": {
             "args": "-p 51000:51000",
             "exec": "node /app.js"
           },
-          "checkoutDir": "salestax-api-v0",
-          "commit": "1868f757714502715cbfe9bdcd19b462b34b0dd5"
+          "checkoutDir": "salestax-api-v1",
+          "commit": "e22ae2a4dbcdb1bac40403498602f89cf4134a32"
         }
       }
     },

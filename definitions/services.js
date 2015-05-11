@@ -7,7 +7,7 @@ exports.root = {
 exports.web = {
 
   shared$: {
-    repositoryUrl: 'git@github.com:senecajs/salestax-api.git#v0',
+    repositoryUrl: 'git@github.com:senecajs/salestax-api.git#v1',
   },
 
   dev: {
