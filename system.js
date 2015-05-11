@@ -12,6 +12,9 @@ exports.topology = {
 
   stage: {
     root: ['web']
-  }
+  },
 
+  aws: {
+    awsSg:[{awsMachine: {contains: ['web']}}]
+  }
 };

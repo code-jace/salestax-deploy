@@ -25,5 +25,13 @@ exports.web = {
       exec: 'node /app.js'
     }
   },
+
+  aws: {
+    type: 'docker',
+    execute: {
+      args: '-p 51000:51000',
+      exec: 'node /app.js'
+    }
+  },
 };
 
