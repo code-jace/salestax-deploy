@@ -18,5 +18,12 @@ exports.web = {
     }
   },
 
+  stage: {
+    type: 'docker',
+    execute: {
+      args: '-p 51000:51000',
+      exec: 'node /app.js'
+    }
+  },
 };
 

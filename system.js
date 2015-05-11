@@ -8,5 +8,10 @@ exports.id = '48cd800f-73a1-4561-9b67-a2a339991911';
 exports.topology = {
   dev: {
     root: ['web']
+  },
+
+  stage: {
+    root: ['web']
   }
+
 };
