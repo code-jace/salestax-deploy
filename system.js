@@ -6,14 +6,7 @@ exports.namespace = 'salestax';
 exports.id = '48cd800f-73a1-4561-9b67-a2a339991911';
 
 exports.topology = {
-  development: {
+  dev: {
+    root: ['web']
   }
 };
-
-// Example
-//
-// exports.topology = {
-//   development: {
-//     root: ['web']
-//   }
-// };

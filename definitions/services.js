@@ -4,16 +4,19 @@ exports.root = {
   type: 'blank-container'
 };
 
-// Example
-//
-// exports.web = {
-//   type: 'docker',
-//     specific: {
-//       repositoryUrl: 'git@github.com:nearform/nscaledemoweb.git',
-//       execute: {
-//         // docker run <ARGS> image <EXEC>
-//         args: '-p 8000:8000 -d',
-//         exec: ''
-//       }
-//     }
-// };
+exports.web = {
+
+  shared$: {
+    repositoryUrl: 'git@github.com:senecajs/salestax-api.git#v0',
+  },
+
+  dev: {
+    type: 'process',
+    build: 'npm install',
+    execute: {
+      process: 'node app.js',
+    }
+  },
+
+};
+
